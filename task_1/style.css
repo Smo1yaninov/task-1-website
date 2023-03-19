@@ -1,0 +1,377 @@
+body{
+    margin: 0;
+    padding: 0;
+    }
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 380px; /*убираем отступы*/
+    padding-top: 50px;
+    font-size: 20;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: white;
+  }
+
+  a:hover{
+   color: red;
+   text-decoration: none;
+  }
+  li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:55px; /*Добавляем отступ у пунктов меню*/
+  }
+
+hr {
+    width: 100%;
+    height: 6px;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: inline;
+
+}
+
+.block_1{
+    background-image: url('https://thumb.tildacdn.com/tild3639-3331-4230-a630-306462323563/-/cover/373x524/center/center/-/format/webp/IMG_6926_0.jpg');
+    height: 500px;
+    position: relative;
+    left: 200px;
+    width: 380px;
+}
+
+.block_2{
+    background-image: url('https://thumb.tildacdn.com/tild6665-3932-4634-a265-343166346234/-/cover/252x336/center/bottom/-/format/webp/IMG_92971.jpg');
+    height: 300px;
+    width: 250px; 
+    position: absolute;
+    top: 930px;
+    left: 600px;
+}
+
+.block_3{
+    background-image: url('https://thumb.tildacdn.com/tild3738-3735-4166-b062-663535636136/-/cover/476x322/center/top/-/format/webp/IMG_7060_3_2_1.jpg');
+    height: 265px;
+    width: 390px; 
+    position: absolute;
+    top: 1255px;
+    left: 315px;
+
+}
+
+.block_4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22;
+    height: 550px;
+    width: 400px; 
+    position: absolute;
+    top: 910px;
+    left: 920px;
+}
+
+.program{
+    background-color: rgb(218, 218, 218);
+    height: 780px;
+    width: 100%; 
+    margin-top: 150px;
+}
+
+.text1{
+    font-size: 40;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 400px; 
+    position: absolute;
+    left: 200px;
+    top: 1630px;
+}
+
+.im1{
+    background-image: url('https://thumb.tildacdn.com/tild3736-3632-4530-b362-653461343134/-/cover/120x120/center/center/-/format/webp/gym.png' );
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    left: 210px;
+    top: 1730px;
+}
+
+.Tex1{
+    font-size: 20;
+    text-align: center;
+    height: 15px;
+    width: 100px;
+    position: absolute;
+    left: 214px;
+    top: 1850px;
+}
+
+.im2{
+    background-image: url("https://thumb.tildacdn.com/tild6539-3837-4234-b038-383939626338/-/cover/120x120/center/center/-/format/webp/fitness_1.png");
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    left: 750px;
+    top: 1730px;
+
+}
+
+.Tex2{
+    font-size: 20;
+    text-align: center;
+    height: 15px;
+    width: 120px;
+    position: absolute;
+    left: 750px;
+    top: 1850px;
+
+}
+
+.im3{
+    background-image: url("https://thumb.tildacdn.com/tild3862-6431-4964-b438-393332663339/-/cover/120x120/center/center/-/format/webp/fitness.png");
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 210px;
+    top: 1730px;
+
+}
+
+.Text3{
+    font-size: 20;
+    text-align: center;
+    height: 15px;
+    width: 120px;
+    position: absolute;
+    right: 214px;
+    top: 1850px;
+
+}
+
+.im4 {
+    background-image: url("https://thumb.tildacdn.com/tild3963-6465-4062-b663-396336363135/-/cover/120x120/center/center/-/format/webp/swimming.png");
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    left: 210px;
+    top: 2000px;
+
+}
+
+.Text4{
+    font-size: 20;
+    text-align: center;
+    height: 15px;
+    width: 100px;
+    position: absolute;
+    left: 214px;
+    top: 2120px;
+}
+
+.im5{
+    background-image: url("https://thumb.tildacdn.com/tild6438-3337-4661-b935-643761356466/-/cover/120x120/center/center/-/format/webp/free-icon-sauna-1330.png");
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    left: 750px;
+    top: 2000px;
+}
+
+.Text5{
+    font-size: 20;
+    text-align: center;
+    height: 15px;
+    width: 120px;
+    position: absolute;
+    left: 750px;
+    top: 2120px;
+}
+
+.im6 {
+    background-image: url("https://thumb.tildacdn.com/tild3266-3961-4630-b631-373761326135/-/cover/120x120/center/center/-/format/webp/sport-bottle.png");
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 210px;
+    top: 2000px;
+
+}
+
+.Text6{
+    font-size: 20;
+    text-align: center;
+    height: 15px;
+    width: 120px;
+    position: absolute;
+    right: 214px;
+    top: 2120px;
+}
+
+.con{
+    height: 60px;
+    width: 600px;
+    position: absolute;
+    left: 550px;
+    top: 2270px;
+    display: flex;
+
+}
+
+.button1{
+    display: inline-block;
+    padding: 12px 150px ;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    border: 0px;
+    user-select: none;
+    line-height: 1.5;
+}
+
+.button1:hover{
+    opacity: .8;
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+.button1:focus{
+    opacity: .8;
+    outline: none;
+}
+
+.photo{
+    background-color: rgb(0, 0, 0);
+    height: 1390px;
+    width: 100%; 
+    margin-top: 0px;
+}
+
+.photo1{
+    background: url("https://thumb.tildacdn.com/tild6165-3133-4462-b633-646561396435/-/format/webp/IMG_3605.jpg") center center / cover no-repeat;
+    height: 620px;
+    width: 1000px;
+    position: absolute;
+    left: 20;
+    top: 2400px;
+}
+
+.photo2{
+    background: url("https://thumb.tildacdn.com/tild6161-6435-4134-b139-333464396461/-/resize/600x700/-/format/webp/IMG_7335.jpg") center center / cover no-repeat;
+    height: 620px;
+    width: 520px;
+    position: absolute;
+    right: 20px;
+    top: 2400px;
+}
+
+.photo3{
+    background: url("https://thumb.tildacdn.com/tild3135-3130-4362-a264-623535336561/-/resize/600x700/-/format/webp/IMG_8226.jpg") center center / cover no-repeat;
+    height: 640px;
+    width: 520px;
+    position: absolute;
+    left: 20;
+    top: 3035px;
+}
+
+.photo4{
+    background: url("https://thumb.tildacdn.com/tild3766-6462-4563-b265-646137613833/-/format/webp/IMG_6237_2.jpg") center center / cover no-repeat;
+    height: 640px;
+    width: 1000px;
+    position: absolute;
+    right: 20px;
+    top: 3035px;
+}
+
+.call{
+
+    background-color: white;
+    height: 550px;
+    width: 100%; 
+    margin-top: 0px;
+}
+
+.call_photo{
+    background:url('https://static.tildacdn.com/tild3335-3366-4930-a236-316537643363/Zakazat_obratnui_zvo.jpg')  center center / cover no-repeat;
+    height: 350px;
+    width: 360px;
+    position: absolute;
+    left: 400px;
+    top: 3800px;
+
+}
+
+.call_text{
+    font-size: 40;
+    text-align: left;
+    height: 15px;
+    width: 300px;
+    position: absolute;
+    right: 504px;
+    top: 3800px;
+}
+
+.name{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    right: 600px;
+    top: 3900px;
+}
+
+.name1{
+    height: 40px;
+    border-radius: 5px;
+    padding: 8px 8px;
+}
+
+.number{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    right: 600px;
+    top: 3950px;
+}
+
+.number1{
+    height: 40px;
+    width: 248px;
+    border-radius: 5px;
+    padding: 8px 8px;
+
+    
+}
+
+.post{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    right: 590px;
+    top: 4005px;
+}
+
+.button_riw{
+    display: inline-block;
+    padding: 20px 60px ;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    border: 0px;
+    user-select: none;
+    line-height: 1.5;
+}
+
+.button_riw:hover{
+    opacity: .8;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.button_riw:focus{
+    opacity: .8;
+    outline: none;
+}
